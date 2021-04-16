@@ -2,6 +2,10 @@
 ## functions do
 
 ## Computing matrix for DS Course
+## the value of the vector
+##get the value of the vector
+##set the value of the inverse of the function 
+##get the value of the inverse of the function 
 
 makeCache <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +23,8 @@ makeCache <- function(x = matrix()) {
 
 
 
-## Taking inverse of matrix for DS Course
+## Takes inverse of special matrix for DS Course
+##First checks to make sure there is no inverse 
 
 cacheSolve <- function(x, ...) {
   m <- x$getInverse()
